@@ -11,11 +11,11 @@ jupyter: python3
 
 # Introduction 
 
-この文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。ssssssaaaa
+コードと数式が混ざったノートがこんなにきれいに作れちゃう。
 
 # 数式
-数式も以下のようにかけます。あいうえお！なにぬねの！tatituaaaaa
-ガウス積
+
+ガウス積もかけちゃう。
 
 $$ 
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
@@ -32,7 +32,7 @@ python aiueo
 import numpy as np
 import matplotlib.pyplot as plt
 
-r = np.arange(0, 2, 0.02)
+r = np.arange(0, 2, 0.04)
 theta = 2 * np.pi * r
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'} 
