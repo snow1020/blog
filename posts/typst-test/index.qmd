@@ -6,15 +6,15 @@ format:
     mainfont: "Hiragino Mincho ProN"
   html:
     code-fold : true
-jupyter: python3
+jupyter: avilen-dl
 ---
 
 # Introduction 
 
-この文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。なぜ反映されないのだろうか？
+この文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。ssssss
 
 # 数式
-数式も以下のようにかけます。あいうえお！
+数式も以下のようにかけます。あいうえお！なにぬねの！tatituaaaaa
 ガウス積
 
 $$ 
@@ -32,7 +32,7 @@ python aiueo
 import numpy as np
 import matplotlib.pyplot as plt
 
-r = np.arange(0, 2, 0.01)
+r = np.arange(0, 2, 0.02)
 theta = 2 * np.pi * r
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'} 
