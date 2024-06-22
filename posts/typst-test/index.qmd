@@ -11,7 +11,7 @@ jupyter: avilen-dl
 
 # Introduction 
 
-この文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。ssssss
+この文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。ssssssaaaa
 
 # 数式
 数式も以下のようにかけます。あいうえお！なにぬねの！tatituaaaaa
