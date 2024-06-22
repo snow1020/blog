@@ -6,7 +6,7 @@ format:
     mainfont: "Hiragino Mincho ProN"
   html:
     code-fold : true
-jupyter: avilen-dl
+jupyter: python3
 ---
 
 # Introduction 

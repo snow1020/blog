@@ -1,8 +1,8 @@
 {
-  "hash": "3e02aa4475c389d174138a2322be94ce",
+  "hash": "17af80d6b9570cfa2952b817c5ef461e",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: Hello Typst!\nformat:\n  typst:\n    keep-typ: true\n    mainfont: Hiragino Mincho ProN\n  html:\n    code-fold: true\n---\n\n# Introduction \n\nこの文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。なぜ反映されないのだろうか？\n\n# 数式\n数式も以下のようにかけます。あいうえお！\nガウス積\n\n$$ \n\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}\n$$\n\n\n# python のコード\n\npython aiueo\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![日本語のキャプションも大丈夫](index_files/figure-typst/fig-polar-output-1.svg){#fig-polar}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: Hello Typst!\nformat:\n  typst:\n    keep-typ: true\n    mainfont: Hiragino Mincho ProN\n  html:\n    code-fold: true\n---\n\n# Introduction \n\nこの文書はQuratで書いた文章をTypestでレンダリングしてしかもJuliaのコードも実行するテスト文書です。ssssssaaaa\n\n# 数式\n数式も以下のようにかけます。あいうえお！なにぬねの！tatituaaaaa\nガウス積\n\n$$ \n\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}\n$$\n\n\n# python のコード\n\npython aiueo\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.02)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![日本語のキャプションも大丈夫](index_files/figure-typst/fig-polar-output-1.svg){#fig-polar}\n:::\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],
